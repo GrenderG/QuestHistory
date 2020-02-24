@@ -1,7 +1,7 @@
 ## Interface: 11200
-## Version: 11100-2
+## Version: 3.0
 ## Title: QuestHistory
-## Author: Dsanai
+## Author: Dsanai, Grender
 ## Notes: An in-game history of quests accepted, completed, and abandoned.
 ## Notes-deDE: Eine historische Liste aller im Spiel angenommenen, erledigten und abgebrochenen Quests.
 ## Notes-frFR: Une histoire des quetes acceptes, termines et abandonnes.

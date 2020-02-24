@@ -48,4 +48,66 @@
 			</OnUpdate>
 		</Scripts>
 	</Frame>
+
+	<!--Minimap Button-->
+  <Button name="QH_MinimapButton" parent="Minimap" enableMouse="true" movable="true" hidden="false">
+    <Size>
+      <AbsDimension x="33" y="33"/>
+    </Size>
+    <Anchors>
+      <Anchor point="TOPLEFT"/>
+    </Anchors>
+    <Layers>
+      <Layer level="HIGH">
+        <Texture name="QH_MinimapButton_Icon" file="Interface\Icons\INV_Scroll_01.blp">
+          <Size>
+            <AbsDimension x="21" y="21"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="7" y="-6"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+      </Layer>
+      <Layer level="OVERLAY">
+        <Texture file="Interface\Minimap\MiniMap-TrackingBorder">
+          <Size>
+            <AbsDimension x="56" y="56"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT"/>
+          </Anchors>
+        </Texture>
+      </Layer>
+    </Layers>
+    <HighlightTexture alphaMode="ADD" file="Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
+    <Scripts>
+      <OnLoad>
+        this:RegisterForClicks("LeftButtonUp")
+        this:RegisterForDrag("RightButton")
+      </OnLoad>
+      <OnClick>
+        QuestHistory_Toggle()
+      </OnClick>
+      <OnDragStart>
+		this:StartMoving()
+	  </OnDragStart>
+	  <OnDragStop>
+		this:StopMovingOrSizing()
+	  </OnDragStop>
+      <OnEnter>
+        GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+        GameTooltip:AddLine("QuestHistory")
+        GameTooltip:AddLine("Left-click to open QuestHistory window.")
+        GameTooltip:AddLine("Right-click and drag to move this icon.")
+        GameTooltip:Show()
+      </OnEnter>
+      <OnLeave>
+         GameTooltip:Hide()
+      </OnLeave>>
+    </Scripts>
+  </Button>
 </Ui>

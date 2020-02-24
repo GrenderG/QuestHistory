@@ -219,7 +219,7 @@ local originalChatFrame_DisplayTimePlayed;				-- To prevent played time from bei
 -- Global QuestHistory Variables
 ----------------------------------------------------------------------------------------------------
 
-QUESTHISTORY_VERSION = 2.9;			-- Version of QuestHistory
+QUESTHISTORY_VERSION = 3.0;			-- Version of QuestHistory
 
 QUESTHISTORY_ITEM_HEIGHT = 14;			-- Height of the item buttons in the list frame
 
