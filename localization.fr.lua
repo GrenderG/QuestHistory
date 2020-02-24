@@ -10,9 +10,6 @@ if ( GetLocale() == "frFR" ) then
 	BINDING_HEADER_QUESTHISTORY = "Boutons QuestHistory";
 	BINDING_NAME_QUESTHISTORYTOGGLE = "Afficher/Masquer QuestHistory";
 
-	-- Displayed when QuestHistory is loaded
-	QUESTHISTORY_LOAD_TEXT = "Jasters\226\128\153 QuestHistory v%0.2f AddOn Charg\195\169";
-
 	-- QuestHistoryFrame text strings
 	QUESTHISTORY_TITLE_FORMAT_SINGULAR = "%s - 1 qu\195\170te au total";
 	QUESTHISTORY_TITLE_FORMAT_PLURAL = "%s - %d qu\195\170tes au total";

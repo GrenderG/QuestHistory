@@ -9,9 +9,6 @@ if ( GetLocale() == "deDE" ) then
 	-- For Binding.xml
 	BINDING_NAME_QUESTHISTORYTOGGLE = "QuestHistory Umschalter";
 
-	-- Displayed when QuestHistory is loaded
-	QUESTHISTORY_LOAD_TEXT = "Jasters\228\126\153 QuestHistory v%0.2f AddOn geladen";
-
 	-- QuestHistoryFrame text strings
 	QUESTHISTORY_TITLE_FORMAT_SINGULAR = "%s - 1 Quest insgesamt";
 	QUESTHISTORY_TITLE_FORMAT_PLURAL = "%s - %d Quests insgesamt";

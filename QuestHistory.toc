@@ -1,6 +1,6 @@
 ## Interface: 11200
-## Version: 11100-1
-## Title: QuestHistory |cff3fcf26[Emerald]|r
+## Version: 11100-2
+## Title: QuestHistory
 ## Author: Dsanai
 ## Notes: An in-game history of quests accepted, completed, and abandoned.
 ## Notes-deDE: Eine historische Liste aller im Spiel angenommenen, erledigten und abgebrochenen Quests.

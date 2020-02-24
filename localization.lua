@@ -6,9 +6,6 @@
 BINDING_HEADER_QUESTHISTORY = "QuestHistory Buttons";
 BINDING_NAME_QUESTHISTORYTOGGLE = "Toggle QuestHistory";
 
--- Displayed when QuestHistory is loaded
-QUESTHISTORY_LOAD_TEXT = "Jasters\226\128\153 QuestHistory v%0.2f AddOn Loaded (Updated by Dsanai)";
-
 -- QuestHistoryFrame text strings
 QUESTHISTORY_FRAME_TITLE = "QuestHistory";
 QUESTHISTORY_TITLE = "";

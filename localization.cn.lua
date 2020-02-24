@@ -11,9 +11,6 @@ if ( GetLocale() == "zhCN" ) then
 BINDING_HEADER_QUESTHISTORY = "QuestHistory[任务历史]";
 BINDING_NAME_QUESTHISTORYTOGGLE = "打开/关闭";
 
--- Displayed when QuestHistory is loaded
-QUESTHISTORY_LOAD_TEXT = "Jasters\226\128\153 QuestHistory v%0.2f 插件已加载 (由 Dsanai 更新)";
-
 -- QuestHistoryFrame text strings
 QUESTHISTORY_FRAME_TITLE = "QuestHistory[任务历史]";
 QUESTHISTORY_TITLE = "";

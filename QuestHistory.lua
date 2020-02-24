@@ -1667,15 +1667,9 @@ function QuestHistory_OnLoad()
 	-- Hook the ChatFrame_DisplayTimePlayed function
 	originalChatFrame_DisplayTimePlayed = ChatFrame_DisplayTimePlayed;
 	ChatFrame_DisplayTimePlayed = QuestHistory_ChatFrame_DisplayTimePlayed;
-  -- Hook quest window open (v2.8)
+    -- Hook quest window open (v2.8)
 	originalQuest_Save = QuestFrameGreetingPanel_OnShow;
 	QuestFrameGreetingPanel_OnShow = QuestHistory_QuestFrameGreetingPanel_OnShow;
-	-- Display a message in the ChatFrame indicating a successful load of this addon
-	if ( DEFAULT_CHAT_FRAME ) then
-		DEFAULT_CHAT_FRAME:AddMessage(format(QUESTHISTORY_LOAD_TEXT, QUESTHISTORY_VERSION));
-	end
-	-- Display a popup message indicating a successful load of this addon
-	UIErrorsFrame:AddMessage(format(QUESTHISTORY_LOAD_TEXT, QUESTHISTORY_VERSION), 1.0, 1.0, 1.0, 1.0, UIERRORS_HOLD_TIME);
 end
 
 -- Handle quest window open (v2.8)
